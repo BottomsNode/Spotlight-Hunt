@@ -19,8 +19,6 @@ The **Spotlight Game**, also known as **Kuku Kube**, is a fun and challenging pu
 
 ## Technologies Used
 - **Frontend**: HTML, CSS, JavaScript (React/Angular optional for enhancements)
-- **Styling**: Tailwind CSS
-- **Backend (Optional for Leaderboard & Scores)**: Node.js or Laravel with MySQL
 
 ## Installation
 1. Clone the repository:
