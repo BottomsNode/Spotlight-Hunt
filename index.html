@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cell Click Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Cell Click Game</h1>
+    <div id="timer">Time: 20s</div>
+    <div id="score">Score: <span id="current-score">0</span></div>
+    <div id="stats">
+        <p>Correct Clicks: <span id="correct-clicks">0</span></p>
+        <p>Wrong Clicks: <span id="wrong-clicks">0</span></p>
+    </div>
+    <!-- Centered Restart Button -->
+    <button id="restart-button" onclick="restartGame()">Restart Game</button>
+    <div id="game-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
